@@ -14,7 +14,7 @@ export default {
     add(keyword = '') {
         keyword = keyword.trim();
         if (!keyword) return;
-        if (this.data.some(item =>> item.keyword === keyword)) {
+        if (this.data.some(item => item.keyword === keyword)) {
             this.remove(keyword);
         }
 
