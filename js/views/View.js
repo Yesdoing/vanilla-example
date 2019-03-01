@@ -10,7 +10,7 @@ export default {
     },
 
     on(event, handler) {
-        this.el.addEventListender(event, handler);
+        this.el.addEventListener(event, handler);
         return this;
     },
 
